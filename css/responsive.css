@@ -33,11 +33,14 @@
 
 }
 
+@media (max-width: 550px){
+	.image-product{right: -14px !important;}
+}
+
+
 @media (max-width: 450px){
 	.countdown{padding: 10px;}
 	.countdown div{height: 80px;width: 80px;font-size: 15px;}
-	}
-
 }
 
 
