@@ -12,7 +12,7 @@
 	header .header-2 .menu-bars{display: block;color: #151515;text-decoration: none;}
 	header .header-2 .navbar ul{position: fixed;width: 100%;background-color: #f6f6f6;top: 80px;left: -100%;text-align: center;display: block;height: 100vh;}	
 	header .header-2 .navbar ul li{margin: 10px 0px;}
-	header .header-2 .navbar ul.show{left: 0%;z-index: 2;width: 94%}
+	header .header-2 .navbar ul.show{left: 0%;z-index: 2;width: 100%}
 	.arrival-header .arrival-links ul li{margin-right: 30px;}
 	.arrival-content{align-items: center;justify-content: center;}
 	.go-to-shop button{width: auto;}
