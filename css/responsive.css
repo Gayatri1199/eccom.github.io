@@ -24,9 +24,9 @@
 	.best-seller-content{margin-top: -66px;font-size: 10px;}
 }
 
-@media (max-width: 700px){
+@media (max-width: 768px){
 .web-version{display: none !important;}
-.mobile-version{display: flex !important;}
+.mobile-version{display: flex !important;flex-wrap:wrap}
 .arrival-header .arrival-links ul li{margin-right: 90px;}
 .go-to-shop button{width: auto !important;}
 .slider-matter{margin-top: 0px;}
@@ -41,6 +41,14 @@
 @media (max-width: 450px){
 	.countdown{padding: 10px;}
 	.countdown div{height: 80px;width: 80px;font-size: 15px;}
+	.deal-image{max-width:80%}
+	.arrival-header .arrival-links ul li{margin:0;width:calc(100% / 3)}
+	.arrival-header{width:100%}
+	.main-product-content{position:relative}
+	.image-product{right: 0 !important;top:50px;width:40%;height:auto}
+	.image-product img{max-width:90%}
+	header .header-2 .navbar ul.show{width:84%}
+	
 }
 
 
